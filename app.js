@@ -21,9 +21,18 @@ if (animal == 5) {
 
 */
 
+
 let animal = prompt ("Animale preferito:\n 1. Dog\n 2. Cat\n 3. Goldfish\n 4. Monkey\n 5. Panda ");
 
-switch(animal) {
+let animal = 1 ? "chose the dog" : let animal = 2 ? "chose the cat"
+
+
+
+/*
+
+let animal = prompt ("Animale preferito:\n 1. Dog\n 2. Cat\n 3. Goldfish\n 4. Monkey\n 5. Panda ");
+
+switch(+animal) {
     case 1:
    alert( "chose the dog");
     break
@@ -39,5 +48,8 @@ switch(animal) {
     case 5:
     alert("chose the panda");
     break
+    default: alert("animal not found")
 
 }
+
+*/
