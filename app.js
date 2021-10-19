@@ -23,8 +23,13 @@ if (animal == 5) {
 
 
 let animal = prompt ("Animale preferito:\n 1. Dog\n 2. Cat\n 3. Goldfish\n 4. Monkey\n 5. Panda ");
-
-let animal = 1 ? "chose the dog" : let animal = 2 ? "chose the cat"
+let output = (animal ==1) ? "chose the dog" : 
+(animal == 2) ? "chose the cat" :
+(animal == 3) ? "chose the goldfish" :
+(animal == 4) ? "chose the monkey" :
+(animal == 5) ? "chose the panda" :
+"annimal not found"
+console.log(output);
 
 
 
@@ -36,7 +41,7 @@ switch(+animal) {
     case 1:
    alert( "chose the dog");
     break
-    case 2:
+    case 2: 
     alert("chose the cat");
     break
     case 3:
