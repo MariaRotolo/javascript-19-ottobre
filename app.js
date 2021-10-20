@@ -17,6 +17,9 @@ if (animal == 4) {
 } else 
 if (animal == 5) {
     console.log ("chose the panda");
+
+} else {
+    console.log("animal not found");
 }
 
 */
